@@ -54,7 +54,7 @@ If you want to automatically enable cross-domain requests when needed, use the f
 
 ```javascript
 (function() {
-    var cors_api_host = 'cors-anywhere.herokuapp.com';
+    var cors_api_host = 'https://sheltered-gorge-36130.herokuapp.com/';
     var cors_api_url = 'https://' + cors_api_host + '/';
     var slice = [].slice;
     var origin = window.location.protocol + '//' + window.location.host;
@@ -76,7 +76,7 @@ If you're using jQuery, you can also use the following code **instead of** the p
 ```javascript
 jQuery.ajaxPrefilter(function(options) {
     if (options.crossDomain && jQuery.support.cors) {
-        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+        options.url = 'https://sheltered-gorge-36130.herokuapp.com/' + options.url;
     }
 });
 ```
@@ -125,7 +125,7 @@ see the sample code in [test/test-examples.js](test/test-examples.js).
 
 ### Demo server
 
-A public demo of CORS Anywhere is available at https://cors-anywhere.herokuapp.com. This server is
+A public demo of CORS Anywhere is available at https://sheltered-gorge-36130.herokuapp.com/. This server is
 only provided so that you can easily and quickly try out CORS Anywhere. To ensure that the service
 stays available to everyone, the number of requests per period is limited, except for requests from
 some explicitly whitelisted origins.

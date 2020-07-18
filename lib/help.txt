@@ -25,6 +25,6 @@ or the X-Requested-With header to be set. To avoid unnecessary preflight (OPTION
 it's recommended to not manually set these headers in your code.
 
 
-Demo          :   https://robwu.nl/cors-anywhere.html
-Source code   :   https://github.com/Rob--W/cors-anywhere/
-Documentation :   https://github.com/Rob--W/cors-anywhere/#documentation
+Demo          :   https://sheltered-gorge-36130.herokuapp.com/
+Source code   :   https://github.com/codenamejason/cors-anywhere/
+Documentation :   https://github.com/codenamejason/cors-anywhere/#documentation

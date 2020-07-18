@@ -1,15 +1,15 @@
 {
-  "name": "cors-anywhere",
-  "version": "0.4.3",
+  "name": "raw-cipher-cors-anywhere",
+  "version": "0.4.4",
   "description": "CORS Anywhere is a reverse proxy which adds CORS headers to the proxied request. Request URL is taken from the path",
   "license": "MIT",
-  "author": "Rob Wu <rob@robwu.nl>",
+  "author": "Jason Romero <jaxcoder@outlook.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rob--W/cors-anywhere.git"
+    "url": "https://github.com/codenamejason/cors-anywhere.git"
   },
   "bugs": {
-    "url": "https://github.com/Rob--W/cors-anywhere/issues/",
+    "url": "https://github.com/codenamejason/cors-anywhere/issues/",
     "email": "rob@robwu.nl"
   },
   "keywords": [
@@ -28,7 +28,7 @@
     "server.js"
   ],
   "dependencies": {
-    "http-proxy": "1.11.1",
+    "http-proxy": "^1.18.1",
     "proxy-from-env": "0.0.1"
   },
   "devDependencies": {
